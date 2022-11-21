@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>homework1</title>
+<style>
+  .right {
+    width: 20%;
+    height: 99%;
+    background-color: #4A5073;
+    position: absolute;
+    top: 10px;    right: 20px;
+  }
+
+  .left {
+    width: 20%;
+    height: 99%;
+    background-color: #4A5073;
+    position: absolute;
+    top: 10px;    left: 20px;
+  }
+
+  .content {
+    width: calc(100% - 100px);
+    margin: 10px;
+    height: calc(100vh - 100px);
+    background-color: #6e8cc0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  p {
+    text-align: center;
+    color: #fff;
+  }
+</style>
+</head>
+<body>
+<main>
+  <aside class="left">
+    <p>Левый сайдбар</p>
+  </aside>
+    <aside class="right">
+      <p>Правый сайдбар</p>
+    </aside>
+    
+</main>
+</body>
+</html>
