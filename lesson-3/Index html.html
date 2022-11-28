@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Форма заявки</title>
+</head>
+<body>
+    <form action="formHandler.php"  name="simple form" autocomplete="on">
+        <h2> <strong>Форма заявки на работу в зоопарке</h2> </strong>
+        <p><i>Пожалуйста заполните форму. Обязательные поля помечены  <span style="color:#FF0000">&#42</span></i>
+        <fieldset>
+            <legend>Контактная информация</legend>
+                <div><label>Имя <span style="color:#FF0000">&#42</span> <input required="text" required></label></div><br>
+                <div><label>Телефон<input type="number" required></label></div><br>
+                <div><label>E-mail <span style="color:#FF0000">&#42</span> <input required="email" required></label></div>
+                </fieldset>
+        <fieldset>
+            <legend>Персональная информация</legend>
+                <div><label>Возраст <span style="color:#FF0000">&#42</span> <input required="number" required></label></div>
+                <br><div><label>Пол</label></div>
+                <select> <option value="female">Женский</option> <option value="male">Мужской</option></select><br>
+                <br><div><label>Перечислите личные качества</label></div>
+                <textarea id="message" rows="10" cols="45" name="text"></textarea>
+                </fieldset>
+        <fieldset>
+             <legend>Выберите любимых животных</legend>
+                    <label><input type="checkbox"> Зебра</label>
+                    <label><input type="checkbox"> Слон</label>
+                    <label><input type="checkbox"> Кальмар</label>
+                    <label><input type="checkbox"> Лев</label><br>
+                    <label><input type="checkbox"> Алигатор</label>
+                    <label><input type="checkbox"> Человек</label>
+                    <label><input type="checkbox"> Попугай</label>
+                    <label><input type="checkbox"> Питон</label>
+        </fieldset>
+        <br>
+        <button name = "send info" type = "submit">Отправить информацию</button>
+</body>
+</html>
