@@ -1,0 +1,64 @@
+@font-face {
+    font-family:"Poppins', sans-serif;";  
+    src: url("../lesson-4/fonts/Poppins-Regular.ttf"); 
+    font-style: normal; 
+    font-weight: normal;
+    font-display: swap;
+     }
+/* style general
+------------------*/
+     body {
+        font-family: "Poppins", "Arial", sans-serif;
+     }
+
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 16px;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+h2{
+    font-size:28px;
+    display:inline-block;
+    position: absolute;
+    left: 385px;
+    top: 20px;
+}
+.titl:after{
+  content:"";
+  background-image: url(../lesson-4/icons/icon1.svg);
+}
+    
+h3{
+position: absolute;
+    left: 385px;
+    top: 77px;
+}
+
+img{
+    position: absolute;
+    left: 20px;
+    top: 46.5px;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    left: 840px;
+    top: 130px;
+    list-style-image:();
+}
+
+.line{
+    font-size:12px;
+    line-height:1.5;
+    color:grey;
+}
