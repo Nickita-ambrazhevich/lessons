@@ -27,10 +27,12 @@ body{
 }
 h2{
     font-size:28px;
-    display:inline-block;
     position: absolute;
     left: 385px;
     top: 20px;
+}
+h2:after{
+    background-image: url(../lesson-4/icons/Group\ 857.svg);
 }
 
   h3{
@@ -50,17 +52,10 @@ ul{
     position: absolute;
     left: 840px;
     top: 130px;
-    list-style-image:();
 }
 
 .line{
     font-size:12px;
     line-height:1.5;
     color:grey;
-}
-
-.burger{
-    position: absolute;
-    top:28px;
-    left: 845px;
 }
