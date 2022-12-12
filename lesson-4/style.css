@@ -7,7 +7,7 @@
      }
 /* style general
 ------------------*/
-     body {
+     html{
         font-family: "Poppins", "Arial", sans-serif;
      }
 
@@ -32,12 +32,8 @@ h2{
     left: 385px;
     top: 20px;
 }
-.titl:after{
-  content:"";
-  background-image: url(../lesson-4/icons/icon1.svg);
-}
-    
-h3{
+
+  h3{
 position: absolute;
     left: 385px;
     top: 77px;
@@ -61,4 +57,10 @@ ul{
     font-size:12px;
     line-height:1.5;
     color:grey;
+}
+
+.burger{
+    position: absolute;
+    top:28px;
+    left: 845px;
 }
