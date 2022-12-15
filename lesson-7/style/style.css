@@ -64,10 +64,25 @@ button{
 #menu{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .page{
+    display: flex;
+    flex-direction: row;
     width: 50px;
     height: 50px;
+    margin: 15px;
+    color: black;
+    background-color:#ffffff;
+    box-shadow: 2px 2px 2px 2px #C7C7C7;
+    border-radius: 5px;
     justify-content: center;
+    align-items: center;
+    
+}
+.page:nth-child(2):focus{
+    background-color: #E31E24;
+}
+
+.page:hover{
+    background-color:#E31E24;
 }
