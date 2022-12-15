@@ -21,7 +21,7 @@ body{
     
 }
 
-div{
+.card{
     display: flex;
     flex-direction: column;
     flex:start;
@@ -60,21 +60,14 @@ button{
     color: aliceblue;
     font-size: 18px;
 }
-.menu{
-    padding-left: 0;
-    margin-left: 0;
+
+#menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
-
+    align-items: center;
 }
-li{
-    background-color: #E31E24;
+.page{
     width: 50px;
     height: 50px;
-    color:#C7C7C7;
-    font-size: 18px;
-    border-radius: 5px;
-
+    justify-content: center;
 }
