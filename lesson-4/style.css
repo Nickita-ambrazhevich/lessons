@@ -4,58 +4,81 @@
     font-style: normal; 
     font-weight: normal;
     font-display: swap;
-     }
-/* style general
-------------------*/
-     html{
-        font-family: "Poppins", "Arial", sans-serif;
-     }
+}
 
-*, :before, :after {
+html{
+    font-family: "Poppins", "Arial", sans-serif;
+}
+body {
+    color: #000;
+    font: 400 14px/1.2 "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+
+}
+ul{
+    list-style: none;
+}
+
+
+*{
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
-    box-sizing: border-box;
-    justify-content: space-between;
     align-items: flex-start;
     font-size: 16px;
 }
-body{
-    min-height: 100vh;
-    width: 100%;
+
+.wrap-title{
+    display: inline;
+    margin-top: 20px;
+    margin-left: 385px;
+
 }
-h2{
-    font-size:28px;
+.benefits{
+ margin-top: 77px;
+ margin-left: 386px;
+ display:  inline; 
+}
+
+p{
+    color: #505050;
+    
+
+}
+
+#cook{
     position: absolute;
-    left: 385px;
-    top: 20px;
+    left: 150px;
+    top:150px;
 }
-h2:after{
-    background-image: url(../lesson-4/icons/Group\ 857.svg);
+    
+#plate{
+    margin-left: 15px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+
 }
 
-  h3{
-position: absolute;
-    left: 385px;
-    top: 77px;
-}
+.static{
+    display:flex;
+    flex-direction: column;
+    max-width: 655px;
+    justify-content:center;
+    align-items: flex-end;
 
+}
+.name{
+    display:flex;
+    margin: 10px 0 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
 img{
-    position: absolute;
-    left: 20px;
-    top: 46.5px;
-}
-
-ul{
-    list-style-type: none;
-    position: absolute;
-    left: 840px;
-    top: 130px;
-}
-
-.line{
-    font-size:12px;
-    line-height:1.5;
-    color:grey;
+    margin-right: 20px;
 }
