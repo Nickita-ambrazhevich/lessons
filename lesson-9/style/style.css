@@ -129,4 +129,5 @@ span{
 .cloud{
     position: absolute;
     top:400px;
+    max-width: 1920px;
 }
