@@ -1,0 +1,82 @@
+*, ::before,::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family:"Roboto", sans-serif;
+}
+@font-face{
+    font-family:"Roboto";
+    src: url("../fonts/Roboto-Regular.ttf,Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+.pics{
+    background: #F2F8F6;
+    width: 1280px;
+    height: 668px;
+    position: relative;
+    z-index: 1;
+}
+#white-box{
+    width: 446.67px;
+    height: 437.32px;
+    background-color:rgb(255, 255, 255);
+    position:absolute;
+    left: 160px;
+    top: 67.28px;
+    z-index: 2;
+}
+#green-board{
+    position: absolute;
+    z-index: 3;
+    left: 193.3px;
+    top: 115.4px;
+}
+
+#plant{
+    position: absolute;
+    z-index: 4;
+    left: 305px;
+    top: 30.76px;
+}
+.text{
+position: absolute;
+max-width: 550px;
+left: 682px;
+top: 115px;
+z-index: 5;
+font-size:20px;
+line-height:28px;
+line-height:140%;
+align-items: Top;
+}
+.text::first-line{
+    font-size: 50px;
+
+}
+ul{
+    list-style-position: inside;
+    list-style-image: url(../pics/Vector.svg);
+}
+button{
+    position: absolute;
+    z-index: 4;
+    width: 211px;
+    height: 57.67px;
+    background-color: #408858;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    font-size: larger;
+}
+button:hover{
+-webkit-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+transition: all 0.6s ease;
+}
+    
