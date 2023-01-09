@@ -1,0 +1,74 @@
+@font-face{
+    font-family:"Gilroy";
+    src: url(../font/Gilroy-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    
+    } 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: "Gilroy";
+}
+
+h2{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 100%;
+margin-bottom: 60px;
+
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+}
+ul{
+    list-style: none;
+    width: 920px;
+    height: auto;
+    margin-right: 300px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+}
+label{
+    width: 100%;
+}
+li{
+display: flex;
+align-items: center;
+height: auto;
+border-bottom: 1px solid #ECECEC;
+padding: 10px;
+}
+
+.title{
+display: inline;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 72px;
+margin-right: 721px;
+}
+.text{
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+}
+input{
+    display: none;
+}
+input:checked~.text{
+    height: auto;
+}
+input:checked~svg{
+    transform: rotate(180deg);
+}
+.man-in-chair{
+    width: 430px;
+    height: 520px;
+}
