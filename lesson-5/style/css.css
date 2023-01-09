@@ -1,0 +1,57 @@
+html{
+    font-size: 1px;
+    font-family: "Montserrat";
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: #E31E24;
+    font-size: 40px;
+    text-align: center; 
+    margin-top: 50px;
+}
+
+span{
+    color: #2753A2;
+    font-size: 40px;
+     
+}
+
+.possibilities{
+text-align: center;
+margin-top: 20px;
+font-size: 26px;
+}
+.cards{ 
+    display: flex;
+    justify-content: center;
+    
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 390px;
+    height: 473px;
+    padding: 50px 20px;
+    margin-left: 25px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #2753A240;
+    border-radius: 10px;
+
+}
+.first-word{
+    color: #2753A2;
+    }
+.ds{
+    font-family: "Montserrat";
+    line-height: 28px;
+    line-height: 140% ;
+
+
+}
+
