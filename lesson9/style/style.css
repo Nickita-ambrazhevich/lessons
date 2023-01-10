@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+body{
+    font-family: "Montserrat";
+    background-color: #1E1E1E;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    margin: 50px calc(20% - 50px);
+    align-items: center;
+}
+a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    position: static;
+}
+.social-icons{
+    display:flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 55px;
+}
+.wallet{
+    height: 50px;
+    width: 200px;
+    background-color:#1E1E1E;
+    border: 1px white solid;
+    color: rgb(255, 255, 255);
+}
+.content{
+    margin-top: 157px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.pre-discription{
+    font-size: 14px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.orange-letters{
+    color: #FF4C24;
+}
+.discription{
+    max-width: 679px;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.buttons{
+    display: inline;
+}
+.whitelisted{
+    width: 420px;
+    height: 60px;
+    background: rgba(255, 76, 36, 0.15); 
+    border: 1px solid #FF4C24;
+    backdrop-filter: blur(10px);
+    font-size: 30px;
+    color: #FF4C24;
+}
+.mint{
+    width: 200px;
+    height: 60px;
+    background: #59FFB7;
+    font-size: 30px;
+}
+.nav-menu{
+    display: none;
+}
+ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    margin-right: 300px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    }
+label{
+    width: 100%;
+    }
+li{
+    display: flex;
+    align-items: center;
+    height: auto;
+    }
+    
+.title{
+    display: inline;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    }
+.text{
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    }
+input{
+    display: none;
+    }
+input:checked~.text{
+    height: auto;
+}
+@media (max-width: 1186px) {
+
+
+.cocial-icons, .main-simbol, .wallet-button {
+    display: none; 
+}
+.nav-menu{
+    display:block;
+}
+}
+@media (max-width: 1044px) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .whitelisted{
+        margin-bottom: 20px;
+    }
+
+
+
+
+}
+    
+
+  
+  
